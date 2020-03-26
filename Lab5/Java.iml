@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://F:/GitHub Things/Tika Apache/tika-app-1.24.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://F:/GitHub Things/tika-1.24" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://F:/GitHub Things/tika-1.24/tika-app/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-app/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-batch/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-batch/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-bundle/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-core/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-core/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-dl/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-dl/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-dotnet/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-eval/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-eval/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-example/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-example/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-java7/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-java7/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-langdetect/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-langdetect/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-nlp/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-nlp/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-parsers/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-parsers/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-parsers/src/test/resources/test-documents" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-serialization/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-serialization/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-server/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-server/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-translate/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-translate/src/test/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-xmp/src/main/java" />
+          <root url="file://F:/GitHub Things/tika-1.24/tika-xmp/src/test/java" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://F:/GitHub Things/poi-4.1.2" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="file://F:/GitHub Things/poi-4.1.2/docs/apidocs/dev" />
+        </JAVADOC>
+        <SOURCES />
+        <jarDirectory url="file://F:/GitHub Things/poi-4.1.2" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/debugger/src/main/java" />
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/examples/src/main/java" />
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/examples/src/test/java" />
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/fontbox/src/main/java" />
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/fontbox/src/test/java" />
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/pdfbox/src/main/java" />
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/pdfbox/src/test/java" />
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/preflight/src/main/java" />
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/preflight/src/test/java" />
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/tools/src/main/java" />
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/tools/src/test/java" />
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/xmpbox/src/main/java" />
+          <root url="file://F:/GitHub Things/pdfbox-2.0.19/xmpbox/src/test/java" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

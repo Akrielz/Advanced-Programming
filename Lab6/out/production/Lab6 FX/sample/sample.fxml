@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="633.0" prefWidth="1158.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <Pane fx:id="configurationPane" layoutX="14.0" layoutY="16.0" prefHeight="608.0" prefWidth="214.0" style="-fx-background-color: efefef; -fx-border-color: gray; -fx-border-width: 3;">
+      <children>
+         <Label layoutX="14.0" layoutY="187.0" prefHeight="32.0" prefWidth="56.0" text="Size:">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Label>
+         <Label layoutX="14.0" layoutY="281.0" prefHeight="32.0" prefWidth="65.0" text="Sides:">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Label>
+         <Label layoutX="14.0" layoutY="378.0" prefHeight="32.0" prefWidth="81.0" text="Stroke:">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Label>
+         <TextField fx:id="sizeTxt" layoutX="14.0" layoutY="224.0" prefHeight="26.0" prefWidth="186.0" />
+         <TextField fx:id="strokeTxt" layoutX="14.0" layoutY="417.0" prefHeight="26.0" prefWidth="186.0" />
+         <TextField fx:id="sidesTxt" layoutX="14.0" layoutY="313.0" prefHeight="26.0" prefWidth="186.0" />
+         <ComboBox fx:id="shapesCB" layoutX="14.0" layoutY="45.0" prefHeight="26.0" prefWidth="186.0" />
+         <Label layoutX="14.0" layoutY="5.0" prefHeight="32.0" prefWidth="81.0" text="Shape:">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Label>
+         <Label layoutX="14.0" layoutY="95.0" prefHeight="32.0" prefWidth="56.0" text="Color">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Label>
+         <ColorPicker fx:id="colorCP" layoutX="14.0" layoutY="130.0" prefHeight="26.0" prefWidth="186.0" />
+         <Label layoutX="14.0" layoutY="475.0" prefHeight="32.0" prefWidth="81.0" text="Depth:">
+            <font>
+               <Font size="20.0" />
+            </font>
+         </Label>
+         <TextField fx:id="depthTxt" layoutX="14.0" layoutY="514.0" prefHeight="26.0" prefWidth="186.0" />
+         <CheckBox fx:id="deleteBox" layoutX="14.0" layoutY="563.0" mnemonicParsing="false" onAction="#checkBoxPressed" text="Delete" />
+      </children>
+   </Pane>
+   <Pane layoutX="243.0" layoutY="16.0" style="-fx-border-width: 3; -fx-border-color: blue;">
+      <children>
+         <Canvas fx:id="canvas" height="603.0" layoutX="3.0" layoutY="3.0" nodeOrientation="INHERIT" onMousePressed="#mousePressedOnCanvas" width="665.0" />
+      </children>
+   </Pane>
+   <Pane fx:id="configurationPane1" layoutX="927.0" layoutY="16.0" prefHeight="608.0" prefWidth="214.0" style="-fx-background-color: efefef; -fx-border-color: gray; -fx-border-width: 3;">
+      <children>
+         <Pane fx:id="menuPane" layoutX="5.0" layoutY="6.0" prefHeight="362.0" prefWidth="205.0" style="-fx-background-color: e8e8e8;">
+            <children>
+               <Button fx:id="loadButton" layoutX="10.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadButtonPressed" prefHeight="41.0" prefWidth="186.0" text="Load Picture">
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Button>
+               <Button fx:id="saveButton" layoutX="10.0" layoutY="277.0" mnemonicParsing="false" onAction="#saveButtonPressed" prefHeight="41.0" prefWidth="186.0" text="Save">
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Button>
+               <Button fx:id="loadGraph" layoutX="10.0" layoutY="144.0" mnemonicParsing="false" onAction="#loadGraphButtonPressed" prefHeight="41.0" prefWidth="186.0" text="Load Graph">
+                  <font>
+                     <Font size="24.0" />
+                  </font>
+               </Button>
+            </children>
+         </Pane>
+         <Button fx:id="resetButton" layoutX="14.0" layoutY="414.0" mnemonicParsing="false" onAction="#resetButtonPressed" prefHeight="41.0" prefWidth="186.0" text="Reset">
+            <font>
+               <Font size="24.0" />
+            </font>
+         </Button>
+         <Button fx:id="exitButton" layoutX="14.0" layoutY="543.0" mnemonicParsing="false" onAction="#exitButtonPressed" prefHeight="41.0" prefWidth="186.0" text="Exit" textFill="#d01b1b">
+            <font>
+               <Font size="24.0" />
+            </font>
+         </Button>
+      </children>
+   </Pane>
+</Pane>
