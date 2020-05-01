@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="525.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Graphics.LocalMenuController">
+   <children>
+      <Button fx:id="buttonHuman" layoutX="434.0" layoutY="107.0" mnemonicParsing="false" onAction="#pressButtonHuman" prefHeight="55.0" prefWidth="133.0" text="Play vs Human" />
+      <Button fx:id="buttonAI" layoutX="434.0" layoutY="237.0" mnemonicParsing="false" onAction="#pressButtonAI" prefHeight="55.0" prefWidth="133.0" text="Play vs AI" />
+      <Button fx:id="buttonBack" layoutX="434.0" layoutY="364.0" mnemonicParsing="false" onAction="#pressButtonBack" prefHeight="55.0" prefWidth="133.0" text="Back" />
+   </children>
+</AnchorPane>

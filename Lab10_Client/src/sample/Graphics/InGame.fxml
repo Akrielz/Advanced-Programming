@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="525.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Graphics.InGameController">
+   <children>
+      <Canvas fx:id="canvasGame" height="500.0" layoutX="250.0" layoutY="13.0" onMousePressed="#mouseClickOnCanvas" width="500.0" />
+      <Label fx:id="labelPlayer" layoutX="774.0" layoutY="48.0" prefHeight="67.0" prefWidth="212.0" text="Current Player: Color">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelColor" layoutX="774.0" layoutY="414.0" prefHeight="67.0" prefWidth="212.0" text="You are: Color">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonLeave" layoutX="38.0" layoutY="414.0" mnemonicParsing="false" onAction="#pressButtonLeave" prefHeight="67.0" prefWidth="167.0" text="Leave Game">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelTurn" layoutX="38.0" layoutY="48.0" prefHeight="67.0" prefWidth="212.0" text="Current Turn: 0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
